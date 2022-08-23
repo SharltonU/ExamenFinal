@@ -1,0 +1,9 @@
+type Query{
+    todosLibros: [Libro]
+}
+
+type Libro{
+    id: ID!
+    nombre: String
+    status: Boolean
+}
